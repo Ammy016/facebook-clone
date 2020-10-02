@@ -1,0 +1,41 @@
+*{
+    background: white;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.login__logos > h2{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.fb-logo{
+    width:200px;
+    height:200px
+}
+
+button{
+    
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #2e81f4;
+}
