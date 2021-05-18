@@ -1,5 +1,5 @@
 *{
-  background-color: none;
+  background: none;
 }
 .app{
   background-color: #f1f2f5;
@@ -8,4 +8,7 @@
 .app__body{
   display: flex;
   justify-content: space-around;
+}
+.MuiIconButton-root{
+  flex: 0 !important;
 }

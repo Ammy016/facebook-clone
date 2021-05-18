@@ -9,8 +9,8 @@ import { useStateValue } from './StateProvider';
 
 
 function App() {
-  // const [{ user } , dispatch] = useStateValue();
-  const user ="aman";
+  const [{ user } , dispatch] = useStateValue();
+  // const user ="aman";
   return (
     //BEM naming convention
     
@@ -33,7 +33,6 @@ function App() {
         
 
 
-        {/* App Body */}
           
     </div>
   );
